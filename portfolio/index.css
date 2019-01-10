@@ -1,0 +1,86 @@
+body{
+  margin-left:15px;
+  padding:0;
+  background-image: linear-gradient( 45deg,#CCCCCC,#CCCCCC);
+}
+
+.main{
+   font-size: 60px;
+   color:midnightblue;
+   position: relative;
+   margin:90px 10px;
+   font-family:'youngserif' , sans-serif;
+
+}
+
+h1{
+  padding-bottom: 100px;
+  display: flex;
+  
+}
+
+h3{
+  padding-bottom: 50px;
+  width: 75%
+  float:right;
+  
+}
+
+h2 a{
+    
+    text-decoration: none;
+    color: midnightblue;
+    transition: .5s ease-in-out;
+}
+
+
+h2 :hover{
+    color: #800000;
+    transition: .3s ease-in-out;
+}
+
+.location{
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  top: 25px;
+  margin: auto;
+  font-family: 'office code pro d', sans-serif;
+  color: midnightblue;
+}
+
+.the-upsetter img{
+  width:400px;
+  height: 200px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+li {
+  list-style:none;
+  
+}
+
+li a{
+  text-decoration: none;
+  
+}
+
+li a :hover{
+  background-color: rgba(128,0,0, 0.9);
+  transition: .3s ease-in-out;
+  cursor: not-allowed;
+}
+
+@media all and (max-heights: 500px){
+  .main{
+    width:50%;
+  }
+  
+}
+
+
