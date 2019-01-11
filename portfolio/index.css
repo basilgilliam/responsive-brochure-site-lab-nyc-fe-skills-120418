@@ -71,7 +71,7 @@ li a{
 }
 
 li a :hover{
-  background-color: rgba(128,0,0, 0.9);
+  background-color: rgba(0,0,0, 0.9);
   transition: .3s ease-in-out;
   cursor: not-allowed;
 }
